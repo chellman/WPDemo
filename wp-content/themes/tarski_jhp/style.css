@@ -1,0 +1,15 @@
+/*
+Theme Name: Tarski (Jeri Houseworth Photography)
+Theme URI: http://jerihouseworthphotography.com/
+Description: Child theme of Tarski for JHP
+Author: Joe Chellman
+Author URI: http://www.shooflydesign.org/
+Version: 3.1.2
+Template: tarski
+*/
+
+@import url(../tarski/style.css);
+
+body .content img {
+	max-width: 800px;
+}

@@ -1,0 +1,89 @@
+/* @override http://jerihouseworthphotography.com/blog/wp-content/themes/tarski/styles/houseworth.css */
+
+/*
+houseworth.css
+'Houseworth' style for the Tarski theme - http://tarskitheme.com/
+Designed by Benedict Eastaugh, http://extralogical.net/
+Modified by shooflydesign.org
+*/
+
+body.houseworth  { min-width: 1100px; }
+body.houseworth #wrapper { width: 1100px; }
+
+body.houseworth .primary { width: 820px; float: right; }
+body.houseworth .primary-span { padding-left: 220px; clear: both; }
+
+body.houseworth .secondary { width: 200px; float: left; }
+body.houseworth .secondary-span { padding-left: 840px; clear: both; }
+
+#header-image {
+	text-align: center;
+	background: #cddcd5;
+}
+
+/* Navigation
+----------------------------------------------- */
+body.houseworth #wrapper .nav-current:link, body.houseworth #wrapper .nav-current:visited, body.houseworth #wrapper .nav-current:active { color: #bf6068; }
+body.houseworth #wrapper .nav-current:hover { color: #a6212c; }
+
+/* Content
+----------------------------------------------- */
+body.houseworth code { color: #bf8f93; }
+body.houseworth abbr, body.houseworth acronym { border-bottom: 1px solid #bf8f93; }
+		
+		/* Headers
+		--------------------------------------- */
+		body.houseworth h3 { color: #bf6068; }
+		body.houseworth h4, body.houseworth h5, body.houseworth h6 { color: #bf8f93; }
+		
+		/* Post content
+		--------------------------------------- */
+		body.houseworth .articlenav { background: #fcfeff; }
+		
+		/* Inserts
+		--------------------------------------- */
+		body.houseworth .insert { background: #fcfeff; margin: 0 0 1em 0; border: 1px solid #cfdee5; padding: 9px; }
+			body.houseworth .insert h3 { border-bottom: 1px solid #cfdee5; }
+		
+		/* Downloads
+		--------------------------------------- */
+		body.houseworth .content a.download:link, body.houseworth .content a.download:visited, body.houseworth .content a.download:active { background-color: #fcfeff; border: 1px solid #cfdee5; }
+		
+		/* Images
+		--------------------------------------- */
+		body.houseworth a img { border: 1px solid #3689b3; }
+		body.houseworth a:hover img, body.houseworth .comment a:hover .avatar { border: 1px solid #a6212c; }
+		
+/* Links
+----------------------------------------------- */
+body.houseworth a:link, body.houseworth a:active, body.houseworth a:visited { color: #3689b3; }
+body.houseworth a:hover { color: #a6212c; }
+
+body.houseworth .content a:link, body.houseworth .content a:active, body.houseworth .content a:visited, body.houseworth .link-pages a:link, body .link-pages a:active, body .link-pages a:visited, body .tagdata a:link, body.houseworth .tagdata a:active, body.houseworth .tagdata a:visited, body.houseworth .widget_tag_cloud a:link, body.houseworth .widget_tag_cloud a:active, body.houseworth .widget_tag_cloud a:visited { border-bottom: 1px solid #cfdee5; }
+body.houseworth .content a:hover, body.houseworth .link-pages a:hover, body.houseworth .tagdata a:hover, body.houseworth .widget_tag_cloud a:hover { border-bottom: 1px solid #a6212c; }
+
+/* Widgets
+----------------------------------------------- */
+
+	/* Calendar widget
+	------------------------------------------- */
+	body.houseworth .widget_calendar tbody td a { color: #fff; background: #8bb6cc; }
+	body.houseworth .widget_calendar tbody td a:hover { color: #fff; background: #cc8a95; }
+
+
+/* @group Comments on home page */
+
+#home.houseworth #comments-header {
+	margin-top: 20px;
+}
+#home.houseworth #comments-header h2.title {
+	font-size: 120%
+}
+#home.houseworth #comments-header .comments-link {
+	text-align: right;
+	font-size: 90%;
+}
+
+/* @end */
+
+
